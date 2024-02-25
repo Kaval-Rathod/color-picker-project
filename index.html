@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Picker & Discolight-bar</title>
+    <link rel="stylesheet" href="styles.css"> 
+    
+</head>
+<body>
+    <div class="container">
+        <div class="color-display">
+            <div id="colorCircle" class="color-circle">
+                <input type="color" id="colorPicker" class="color-picker"> <!-- Color picker input -->
+            </div>
+        </div>
+        <div id="hexCode" class="hex-code">Hex Code: <span id="hexValue"></span></div> <!-- Display hex code of selected color -->
+        <div id="rgbCode" class="rgb-code">RGB Code: <span id="rgbValue"></span></div> <!-- Display RGB code of selected color -->
+        <div id="hslCode" class="hsl-code">HSL Code: <span id="hslValue"></span></div> <!-- Display HSL code of selected color -->
+        <div id="colorPalette" class="color-palette"></div> <!-- Container for color palette -->
+        
+        <div class="discolight"> <!-- Container for discolight-bar -->
+            <!-- The blocks will be dynamically added here using JavaScript -->
+        </div>
+        <button id="stopButton" class="stop-button">Stop</button> <!-- Add a stop button -->
+    </div>
+    
+    <script src="script.js"></script> 
+
+        
+</body>
+</html>
